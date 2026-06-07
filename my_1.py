@@ -13,6 +13,5 @@ def primes_up_to_n(n):
             primes.append(number)
     return primes
 
-# Example usage:
 n = int(input("Enter a number: "))
 print("Prime numbers between 1 and", n, "are:", primes_up_to_n(n))
